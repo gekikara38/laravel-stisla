@@ -7,9 +7,14 @@ Clone the repo:
 git clone https://github.com/gekikara38/laravel-stisla
 ```
 
+go to directory file:
+```shell
+cd laravel-stisla
+```
+
 Install composer packages:
 ```shell
-composer update
+composer install
 ```
 
 Copy and rename .env.example to .env:
@@ -17,9 +22,14 @@ Copy and rename .env.example to .env:
 cp .env.example .env
 ```
 
-update the environmental variables and set an app key:
+Update the environmental variables and set an app key:
 ```shell
 php artisan key:generate
+```
+
+Run the project
+```shell
+php artisan serve
 ```
 
 ### Credits:
