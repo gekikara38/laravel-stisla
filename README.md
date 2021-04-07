@@ -1,5 +1,5 @@
 # Stisla Laravel
-Stisla is the most-awesome admin panel I've seen so far. As I love this template very much, I have implemented Stisla in a fresh Laravel 8.5 app. Simply clone this repo and start building your next Laravel project on top of the awesome Stisla. If you want to make it more dynamic, you can update the pages or add your own.
+Stisla is the most-awesome admin panel I've seen so far. As I love this template very much, I have implemented Stisla in a fresh Laravel 8.36.1 app. Simply clone this repo and start building your next Laravel project on top of the awesome Stisla. If you want to make it more dynamic, you can update the pages or add your own.
 
 ## Installation
 Clone the repo:
