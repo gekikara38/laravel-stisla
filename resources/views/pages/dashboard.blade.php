@@ -93,16 +93,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8">
-        <div class="card">
-          <div class="card-header">
-            <h4>Budget vs Sales</h4>
-          </div>
-          <div class="card-body">
-            <canvas id="myChart" height="158"></canvas>
-          </div>
-        </div>
-      </div>
+    
       <div class="col-lg-4">
         <div class="card gradient-bottom">
           <div class="card-header">
