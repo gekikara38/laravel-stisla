@@ -27,6 +27,11 @@ Update the environmental variables and set an app key:
 php artisan key:generate
 ```
 
+migrate database
+```shell
+php artisan migrate
+```
+
 Run the project
 ```shell
 php artisan serve
