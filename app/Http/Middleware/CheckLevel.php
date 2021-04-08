@@ -14,8 +14,11 @@ class CheckLevel
      * @param  \Closure  $next
      * @return mixed
      */
-    public function handle(Request $request, Closure $next)
+    public function handle(Request $request, Closure $next, ...$levels)
     {
-        return $next($request);
+        if(in_array($request->user()->level,$levels)){
+            return $next($request);
+        }
+        return redirect('/home');
     }
 }

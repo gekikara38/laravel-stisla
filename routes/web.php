@@ -18,12 +18,16 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', 'App\Http\Controllers\HomeController@index')->name('home');
 
 Route::get('logout', 'App\Http\Controllers\LoginController@logout');
 
-Route::group(['middleware' => ['auth']], function(){
+Route::group(['middleware' => ['auth', 'checklevel:admin']], function(){
 
     Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index')->name('dashboard');
     // Route::get('');
+});
+
+Route::get('/', function () {
+    return view('welcome');
 });
