@@ -32,10 +32,21 @@ migrate database
 php artisan migrate
 ```
 
+Add Akun in Database
+```shell
+php artisan db:seed
+```
+
 Run the project
 ```shell
 php artisan serve
 ```
+
+### Credentials:
+* Admin Account: 
+- Email: admin@test.com    Password: admin1234
+* User Account:
+- Email: joko@test.com     Password: joko1234
 
 ### Credits:
 *   [Laravel](https://github.com/laravel/laravel)
